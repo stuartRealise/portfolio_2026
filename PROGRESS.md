@@ -405,3 +405,7 @@ All pages, navigation, case studies, and images confirmed loading in production.
 ### Bug Fix — General Enquiry Card Full Width in Homepage Services Teaser
 - **Problem:** The "What I Do" section on the homepage uses a 2-column grid. With 3 active services, General Enquiry sat alone in the left column of the second row instead of spanning the full width
 - **Fix:** Added `grid-column: 1 / -1` on `.activeGrid > div:last-child:nth-child(odd)` in `components/home/ServicesTeaser.module.css` — matches the full-width treatment already applied in the contact modal picker
+
+### Feature — Homepage Service Cards Open Contact Modal
+- **Problem:** "Learn more →" on each homepage service card linked to `/services#slug` — General Enquiry had no valid anchor, and none of the cards triggered the contact modal directly
+- **Fix:** Converted `components/ui/ServiceCard.tsx` to a `'use client'` component; replaced the `<Link>` with a button calling `openContactModal(service.id)`, pre-selecting the relevant service in Step 2 of the modal. Label reads "Get in touch →" for General Enquiry and "Enquire →" for the two main services. `data-contact-trigger` / `data-service-id` attributes retained for the JS fallback on non-hydrated clients. External link for Decision Intelligence Audit (seventy-two-audit.co.uk) unchanged.
