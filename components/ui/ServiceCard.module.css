@@ -96,14 +96,14 @@
   color: var(--color-brand-primary);
   transition: letter-spacing 0.2s ease;
   width: fit-content;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .link:hover {
   letter-spacing: 0.2em;
-  font-family: var(--font-body);
-  font-size: var(--text-sm);
-  font-weight: 900;
-  letter-spacing: 0.05em;
 }
 
 /* ——— Coming Soon Slots ——— */

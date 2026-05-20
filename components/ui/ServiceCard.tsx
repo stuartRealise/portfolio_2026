@@ -1,4 +1,6 @@
-import Link from 'next/link';
+'use client';
+
+import { useContactModal } from '@/lib/ContactModalContext';
 import type { Service } from '@/lib/content';
 import styles from './ServiceCard.module.css';
 
@@ -7,6 +9,8 @@ interface Props {
 }
 
 export default function ServiceCard({ service }: Props) {
+  const { openContactModal } = useContactModal();
+
   if (service.status === 'coming-soon') {
     return (
       <div className={styles.comingSoon}>
@@ -30,9 +34,15 @@ export default function ServiceCard({ service }: Props) {
         <p key={i} className={styles.description}>{para}</p>
       ))}
       <div className={styles.ctaGroup}>
-        <Link href={`/services#${service.slug}`} className={styles.link}>
-          Learn more →
-        </Link>
+        <button
+          type="button"
+          className={styles.link}
+          onClick={() => openContactModal(service.id)}
+          data-contact-trigger="true"
+          data-service-id={service.id}
+        >
+          {service.contactOnly ? 'Get in touch →' : 'Enquire →'}
+        </button>
         {service.externalLink && (
           <a
             href={service.externalLink.href}
