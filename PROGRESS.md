@@ -383,3 +383,21 @@ All pages, navigation, case studies, and images confirmed loading in production.
 - Formspree account created and form endpoint added to Vercel environment variables as `NEXT_PUBLIC_FORMSPREE_ENDPOINT`
 - All submissions route to `stuart@aitken-interactive.co.uk`
 - Redeploy triggered after env var addition to activate the endpoint
+
+### Bug Fix — Hero Heading Size on Mobile
+- **Problem:** Mobile heading size was being overridden by a cascade issue — desktop styles were winning on small screens
+- **Fix:** Added explicit `font-size` overrides for `h1` inside `.hero` at `max-width: 899px` in `components/home/Hero.module.css`
+
+### Bug Fix — Heuristic Evaluation SVG Case + General Enquiry Services Page Exclusion
+- **Problem 1:** `heuristic-evaluation.svg` path was lowercase on disk but referenced as `Heuristic-evaluation.svg` — 404 on Linux/Vercel
+- **Fix 1:** Corrected image path in `content/services.json` to match actual filename on disk
+- **Problem 2:** General Enquiry showing as a full service card on the `/services` page where it shouldn't appear
+- **Fix 2:** Added `contactOnly: true` flag to `general-enquiry` in `content/services.json`; added `contactOnly?: boolean` to `Service` interface in `lib/content.ts`; filtered it out of the services page render in `app/services/page.tsx`
+
+### Bug Fix — General Enquiry Card Full Width in Modal Picker
+- **Problem:** With 3 cards in a 2-column flex layout, General Enquiry (3rd card) was taking only half the row width
+- **Fix:** Added `.serviceCard:last-child { flex: 1 1 100%; }` in `ContactModal.module.css` so the General Enquiry card always spans the full width as the last item
+
+### Content Fix — EFL Case Study Year
+- **Problem:** Detail metadata showed `Year: 2022/23` but the correct engagement year is 2017/18
+- **Fix:** Updated `content/case-studies/efl-match-centre-digital-experience.json` detail entry from `2022/23` → `2017/18`
