@@ -57,6 +57,7 @@ export interface Service {
   imageAlt?: string;
   intakeFields?: ServiceField[];
   externalLink?: { href: string; label: string };
+  contactOnly?: boolean;
 }
 
 export interface WorkIndexItem {

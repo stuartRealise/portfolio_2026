@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
   const services = getServices();
-  const active = services.filter((s) => s.status === 'active');
+  const active = services.filter((s) => s.status === 'active' && !s.contactOnly);
   const comingSoon = services.filter((s) => s.status === 'coming-soon');
 
   return (

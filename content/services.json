@@ -40,7 +40,7 @@
     "description": "Poor UX rarely appears as a single problem. It shows up as slower adoption, inconsistent behaviour, support overhead, abandoned journeys, and growing delivery complexity. \n\nIn 72 hours, I conduct a structured heuristic evaluation of your product and deliver a commercially-framed report that connects usability friction directly to customer trust, operational risk, and missed growth opportunities.",
     "duration": "72 hour",
     "deliverable": "Commercially-framed UX impact report",
-    "image": "/assets/services/heuristic-evaluation.svg",
+    "image": "/assets/services/Heuristic-evaluation.svg",
     "imageAlt": "Designer reviewing interface designs on a large monitor",
     "intakeFields": [
       { "name": "name", "label": "Your name", "type": "text", "required": true },
@@ -60,6 +60,7 @@
     "shortName": "General Enquiry",
     "tagline": "Just want to start a conversation?",
     "description": "Not sure which service fits, or just want to get in touch? Send a message and I'll get back to you.",
+    "contactOnly": true,
     "intakeFields": [
       { "name": "name", "label": "Your name", "type": "text", "required": true },
       { "name": "email", "label": "Email address", "type": "email", "required": true },
