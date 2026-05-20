@@ -332,3 +332,54 @@ On mobile, total content height (eyebrow + large heading + long subline + CTA) l
 - Check whether `overflow: hidden` on `.hero` is clipping the bottom padding on mobile.
 - Consider switching from `padding` on `.content` to adding an explicit `margin-top` on the eyebrow and `margin-bottom` on the CTA, which are harder to clip.
 - Consider adding `padding-bottom` directly to `.hero` on mobile (outside of the content flow) so it always produces space below the CTA regardless of content height.
+
+---
+
+## Launch Day — 2026-05-20
+
+### Git Backup & Version Control
+- All work committed to local git repo (3 commits on `main`)
+- `.gitignore` updated to exclude macOS `Icon\r` artifact (using `Icon?` pattern)
+- Mirror backup created on external drive: `/Volumes/StuartExternal1TB/portfolio2026_Backup.git`
+- GitHub private repo created at `github.com/stuartRealise/portfolio_2026` (later made public — see below)
+- Local git user email updated to `stuart@aitken-interactive.co.uk` to match GitHub/Vercel account
+
+### Bug Fix — Duplicate React Key (credentials timeline)
+- **Problem:** Console error `Encountered two children with the same key, 2020-2023` — multiple credentials in `site.json` shared the same `year` value, which was being used as the React list key
+- **Fix:** Added stable `id` fields (`cred-and-digital`, `cred-visitscotland`, etc.) to each credential entry in `content/site.json`; updated `app/about/page.tsx` to key off `item.id`; added `id: string` to `SiteCredential` interface in `lib/content.ts`
+
+### Vercel Deployment
+- Site deployed to Vercel (Hobby plan) via GitHub integration
+- Custom domain `aitken-interactive.co.uk` pointed at Vercel by updating the `@` A record at 123-reg DNS from `92.205.0.98` → `216.198.79.1`
+- MX records left untouched — email at `stuart@aitken-interactive.co.uk` unaffected
+- SSL certificate issued automatically by Vercel
+- **Deployment blocked issue:** Resolved by making the GitHub repo public (Hobby plan doesn't support collaborators on private repos) and fixing the local git author email to match the Vercel account
+
+### Bug Fix — Image Path Case Mismatches (19 files)
+- **Problem:** macOS filesystem is case-insensitive so all image paths worked locally, but Vercel runs on Linux (case-sensitive) causing images to 404 in production
+- **Files fixed:** `Hero.tsx`, `app/page.tsx`, `app/services/page.tsx`, `content/work.json`, and 5 case study JSON files (`mod-rp`, `efl`, `opus2`, `rocktrust`, `service-blueprint-architect`)
+- **Examples:** `Homepage.jpg` → `homepage.jpg`, `EFL_logo.svg` → `EFL_LOGO.svg`, `opus2/logo.svg` → `Opus2/Logo.svg`, `Problem.png` → `problem.png`, `DesignSystems.png` → `Designsystems.png`
+
+### Site Status
+**Live at:** `https://aitken-interactive.co.uk`
+All pages, navigation, case studies, and images confirmed loading in production.
+
+---
+
+## Post-Launch Updates — 2026-05-20 (continued)
+
+### Contact Modal — General Enquiry + Layout Fix
+- **Problem 1:** No option to contact without selecting a specific service
+- **Problem 2:** Two stacked service cards were causing vertical overflow/scrollbars on desktop
+- **Problem 3:** No contact number field on any form
+
+**Changes:**
+- Added `general-enquiry` as a third active service in `content/services.json` with fields: Name, Email address, Contact number, Enquiry
+- `ContactModal.module.css` — widened panel from 640px to 900px; switched `.serviceCards` to `flex-direction: row` on desktop (≥700px), stacking to column on mobile; hid verbose `.cardDesc` on desktop for a clean 3-column card layout
+- `ContactModal.tsx` — added `_to: stuart@aitken-interactive.co.uk` and `_replyto` to every Formspree submission
+- `StaticContactModal.tsx` (iOS fallback) — replaced Company field with Contact number; added `_to` hidden field
+
+### Formspree Integration
+- Formspree account created and form endpoint added to Vercel environment variables as `NEXT_PUBLIC_FORMSPREE_ENDPOINT`
+- All submissions route to `stuart@aitken-interactive.co.uk`
+- Redeploy triggered after env var addition to activate the endpoint
