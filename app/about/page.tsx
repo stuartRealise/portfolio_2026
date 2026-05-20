@@ -74,7 +74,7 @@ export default function AboutPage() {
           <ol className={styles.timeline}>
             {site.about.credentials.map((item, i) => (
               <li
-                key={item.year}
+                key={item.id}
                 className={`${styles.timelineItem} reveal reveal-delay-${Math.min(i + 1, 4)}`}
               >
                 <span className={styles.timelineYear}>{item.year}</span>

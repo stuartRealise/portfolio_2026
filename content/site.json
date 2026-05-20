@@ -14,12 +14,12 @@
     "heroImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80",
     "portraitImage": "/assets/about/aboutStu_portrait.png",
     "credentials": [
-      { "year": "early 2009", "role": "Founded Aitken Interactive - ", "context": "Independent UX strategy and decision design consultancy" },
-      { "year": "2023-2025", "role": "Head of UX, Opus2, ", "context": "Established design systems and UX best practices, improving design consistency and scalability." },
-      { "year": "2020-2023", "role": "Lead UX Consultant, AND Digital", "context": "Led UX strategy and design for large-scale projects for clients including Sky, Bella & Duke, and Rocktrust" },
-      { "year": "2020-2023", "role": "UX Consultant, VisitScotland [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
-      { "year": "2019-2020", "role": "UX Consultant, Tesco Bank [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
-      { "year": "2019-2020", "role": "Consultant, Equator [Contract]", "context": "Led customer definition and business goal alignment for a SaaS platform." }
+      { "id": "cred-aitken-interactive", "year": "early 2009", "role": "Founded Aitken Interactive - ", "context": "Independent UX strategy and decision design consultancy" },
+      { "id": "cred-opus2", "year": "2023-2025", "role": "Head of UX, Opus2, ", "context": "Established design systems and UX best practices, improving design consistency and scalability." },
+      { "id": "cred-and-digital", "year": "2020-2023", "role": "Lead UX Consultant, AND Digital", "context": "Led UX strategy and design for large-scale projects for clients including Sky, Bella & Duke, and Rocktrust" },
+      { "id": "cred-visitscotland", "year": "2020-2023", "role": "UX Consultant, VisitScotland [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
+      { "id": "cred-tesco-bank", "year": "2019-2020", "role": "UX Consultant, Tesco Bank [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
+      { "id": "cred-equator", "year": "2019-2020", "role": "Consultant, Equator [Contract]", "context": "Led customer definition and business goal alignment for a SaaS platform." }
     ],
     "values": [
       {

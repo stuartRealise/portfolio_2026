@@ -6,6 +6,7 @@ import path from 'path';
 // ============================================================
 
 export interface SiteCredential {
+  id: string;
   year: string;
   role: string;
   context: string;
