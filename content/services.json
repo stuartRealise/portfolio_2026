@@ -52,6 +52,21 @@
       { "name": "notes", "label": "Any areas of particular concern?", "type": "textarea", "required": false }
     ]
   },
+  {
+    "id": "general-enquiry",
+    "slug": "general-enquiry",
+    "status": "active",
+    "name": "General Enquiry",
+    "shortName": "General Enquiry",
+    "tagline": "Just want to start a conversation?",
+    "description": "Not sure which service fits, or just want to get in touch? Send a message and I'll get back to you.",
+    "intakeFields": [
+      { "name": "name", "label": "Your name", "type": "text", "required": true },
+      { "name": "email", "label": "Email address", "type": "email", "required": true },
+      { "name": "phone", "label": "Contact number", "type": "tel", "required": false },
+      { "name": "enquiry", "label": "Your enquiry", "type": "textarea", "required": true }
+    ]
+  },
   { "id": "service-03", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },
   { "id": "service-04", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },
   { "id": "service-05", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },

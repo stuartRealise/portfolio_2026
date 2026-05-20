@@ -38,6 +38,7 @@ export default function StaticContactModal() {
 
         <form className={styles.form} action={FORMSPREE_ENDPOINT} method="POST">
           <input type="hidden" name="_subject" value="New enquiry — Aitken Interactive" />
+          <input type="hidden" name="_to" value="stuart@aitken-interactive.co.uk" />
 
           <div className={styles.fieldGroup}>
             <label htmlFor="cmf-service" className={styles.label}>
@@ -68,21 +69,20 @@ export default function StaticContactModal() {
           </div>
 
           <div className={styles.fieldGroup}>
-            <label htmlFor="cmf-company" className={styles.label}>
-              Company<span className={styles.required} aria-hidden="true"> *</span>
+            <label htmlFor="cmf-phone" className={styles.label}>
+              Contact number
             </label>
             <input
-              id="cmf-company"
-              type="text"
-              name="company"
-              required
+              id="cmf-phone"
+              type="tel"
+              name="phone"
               className={styles.input}
             />
           </div>
 
           <div className={styles.fieldGroup}>
             <label htmlFor="cmf-message" className={styles.label}>
-              Tell me about your situation
+              Your enquiry
               <span className={styles.required} aria-hidden="true"> *</span>
             </label>
             <textarea

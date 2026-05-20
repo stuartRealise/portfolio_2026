@@ -148,7 +148,12 @@ export default function ContactModal() {
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ ...formValues, _service: activeServiceId }),
+        body: JSON.stringify({
+          ...formValues,
+          _service: activeServiceId,
+          _replyto: formValues.email ?? '',
+          _to: 'stuart@aitken-interactive.co.uk',
+        }),
       });
 
       if (res.ok) {
