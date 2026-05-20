@@ -22,7 +22,7 @@ export default function ServicesPage() {
     <main id="main-content">
       {/* ——— Hero ——— */}
       <ParallaxSection
-        imageUrl="/assets/homepage/decisionMaker.png"
+        imageUrl="/assets/Homepage/decisionMaker.png"
         imageAlt="Strategic planning session — team reviewing options and evidence"
         height="70vh"
         overlayOpacity={0.6}

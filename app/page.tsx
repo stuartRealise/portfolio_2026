@@ -20,7 +20,7 @@ I work with founders and product leaders to bring clarity to complex product cha
       <Intro pullQuote={site.about.pullQuote} bio={site.bio} />
 
       <ParallaxSection
-        imageUrl="/assets/homepage/decisions.png"
+        imageUrl="/assets/Homepage/decisions.png"
         imageAlt="Strategy session — team at a whiteboard planning product direction"
         height="60vh"
         overlayOpacity={0.62}

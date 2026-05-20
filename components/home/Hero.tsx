@@ -16,7 +16,7 @@ export default function Hero({ tagline, subline }: Props) {
     <section className={styles.hero} aria-label="Hero">
       <div className={styles.bg}>
         <Image
-          src="/assets/Homepage/Homepage.jpg"
+          src="/assets/Homepage/homepage.jpg"
           alt="Warm Workspace"
           fill
           priority

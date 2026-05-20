@@ -29,7 +29,7 @@
           "caption": "The fan experience and the authoring exprience had to align."
         },
         {
-          "url": "/assets/EFL/Problem.png",
+          "url": "/assets/EFL/problem.png",
           "caption": "The authoring experience HAD to work in realtime, during a live match."
         }
       ]
@@ -64,7 +64,7 @@
       "body": "A robust, integrated platform with two complementary halves.\n\nThe Fan Experience — a seamless, multi-stage journey providing all necessary pre-game guides, real-time match statistics, and post-match reports.\n\nThe Authoring Solution — a redesigned CMS allowing authors to write notes, schedule content, and publish real-time updates directly in a single, mobile-friendly environment.",
       "images": [
         {
-          "url": "/assets/EFL/solution.png",
+          "url": "/assets/EFL/Solution.png",
           "caption": "The final comprehensive match centre experience starting from the home page and leading the user through club form, match previews, live match updates and post-match reports."
         }
       ]
@@ -84,7 +84,7 @@
   },
   "gallery": [
     {
-      "url": "/assets/EFL/Problem.png",
+      "url": "/assets/EFL/problem.png",
       "caption": "The authoring problem."
     },
     {
@@ -94,7 +94,7 @@
       "url": "/assets/EFL/STRATEGY.png",
       "caption": "The pulse of the match meant rendering realtime updates before, during and after the match."
     }, {
-      "url": "/assets/EFL/solution.png",
+      "url": "/assets/EFL/Solution.png",
       "caption": "The final comprehensive match centre experience."
     }
   ]

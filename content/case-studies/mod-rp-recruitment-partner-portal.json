@@ -25,11 +25,11 @@
       "body": "The existing user experience suffered from multiple issues.\n\nApplicants lacked context and understanding of desired outcomes throughout the process. Long periods of inactivity passed with no communication from the organisation. The process required single-session completion, making it impossible to save and resume progress. Users were repeatedly asked for the same information. The business suffered from a large drop-off in website traffic, with content inconsistent across the digital estate.",
       "images": [
           {
-            "url": "/assets/RPP/problem1.jpg",
+            "url": "/assets/RPP/Problem1.jpg",
             "caption": "The taxonomy and navigation structure needed to work across multiple platforms, including the website, app, and an isometric camp view. "
           },
           {
-            "url": "/assets/RPP/problem2_v2.jpg",
+            "url": "/assets/RPP/Problem2_v2.jpg",
             "caption": "The traditional website view had to work online and across devices."
           }
       ]
@@ -39,11 +39,11 @@
       "body": "The core strategic decisions centred on three priorities: ensuring a consistent language and experience across multiple platforms (app, website, isometric camp); allowing applicants to save progress and resume later; and developing mechanisms to keep users engaged during long periods of downtime.",
       "images": [
         {
-          "url": "/assets/RPP/strategy1.jpg",
+          "url": "/assets/RPP/Strategy1.jpg",
           "caption": "The strategy was to ensure consitency across 3 platforms, aligned to brand guidelines and architectural nuance. Rules were put in place to ensure a consistent experience across all platforms, with a single point of data collection and a gamified experience to keep users engaged during long periods of inactivity."
         },
         {
-          "url": "/assets/RPP/strategy2.jpg",
+          "url": "/assets/RPP/Strategy2.jpg",
           "caption": "Each journey was methodically mapped out to keep recruits interested, engaged and informed. Other actors included recruitment agents who were assigned a number of recruits, and who would be personally responsible for communication through the CMS."
         }
       ]

@@ -5,7 +5,7 @@
     "client": "English Football League",
     "year": "2022-23",
     "tags": ["Sport", "Fan Experience", "CMS", "Digital Engagement"],
-    "indexImage": "/assets/EFL/EFL_logo.svg",
+    "indexImage": "/assets/EFL/EFL_LOGO.svg",
     "indexTeaser": "Delivering a full-cycle fan experience—from pre-match previews to live reporting—while providing club authors with a powerful, streamlined content management system.",
     "featured": true
   },
@@ -55,7 +55,7 @@
     "client": "Opus2",
     "year": "2023-2026",
     "tags": ["Legal Technology", "UX Design", "Enterprise", "Complex Systems"],
-    "indexImage": "/assets/opus2/logo.svg",
+    "indexImage": "/assets/Opus2/Logo.svg",
     "indexTeaser": "Designing the trial presentation experience for Opus2 — bringing clarity and usability to one of the most high-stakes, complexity-heavy workflows in legal practice.",
     "featured": false
   },
