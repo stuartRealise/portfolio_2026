@@ -57,6 +57,10 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--space-lg);
   }
+
+  .activeGrid > div:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
 }
 
 .comingSoonGrid {
