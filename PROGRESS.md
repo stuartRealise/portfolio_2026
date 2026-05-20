@@ -401,3 +401,7 @@ All pages, navigation, case studies, and images confirmed loading in production.
 ### Content Fix — EFL Case Study Year
 - **Problem:** Detail metadata showed `Year: 2022/23` but the correct engagement year is 2017/18
 - **Fix:** Updated `content/case-studies/efl-match-centre-digital-experience.json` detail entry from `2022/23` → `2017/18`
+
+### Bug Fix — General Enquiry Card Full Width in Homepage Services Teaser
+- **Problem:** The "What I Do" section on the homepage uses a 2-column grid. With 3 active services, General Enquiry sat alone in the left column of the second row instead of spanning the full width
+- **Fix:** Added `grid-column: 1 / -1` on `.activeGrid > div:last-child:nth-child(odd)` in `components/home/ServicesTeaser.module.css` — matches the full-width treatment already applied in the contact modal picker
