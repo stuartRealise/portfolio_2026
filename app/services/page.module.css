@@ -1,0 +1,296 @@
+/* ——— Hero ——— */
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-sm);
+}
+
+.heroLabel {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(236, 233, 227, 0.65);
+}
+
+.heroHeading {
+  font-family: var(--font-display);
+  font-size: var(--text-hero);
+  font-weight: 400;
+  color: var(--color-white);
+  line-height: 1.05;
+}
+
+.heroSub {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: rgba(236, 233, 227, 0.78);
+  max-width: 50ch;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* ——— Active service sections ——— */
+
+.serviceSection {
+  padding: var(--space-xl) var(--space-md);
+}
+
+.parchmentBg {
+  background: var(--color-surface-base);
+}
+
+.charcoalBg {
+  background: var(--color-surface-inverse);
+}
+
+.serviceInner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .serviceInner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+
+  .reversed .serviceText {
+    order: 2;
+  }
+
+  .reversed .serviceImage {
+    order: 1;
+  }
+}
+
+/* ——— Service text ——— */
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.serviceName {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  font-weight: 400;
+  color: var(--color-brand-authority);
+  line-height: 1.15;
+}
+
+.nameLight {
+  color: var(--color-text-inverse);
+}
+
+@media (max-width: 768px) {
+  .serviceName {
+    font-size: var(--text-2xl);
+  }
+}
+
+.serviceTagline {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-style: italic;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+.taglineLight {
+  color: rgba(236, 233, 227, 0.65);
+}
+
+.durationBadge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight:800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-brand-primary);
+  border:2px solid  var(--color-brand-primary);
+  padding: 0.4rem 1rem;
+  width: fit-content;
+}
+
+.serviceDesc {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text-primary);
+  line-height: 1.75;
+}
+
+.descLight {
+  color: rgba(236, 233, 227, 0.7);
+}
+
+.deliverable {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.deliverableLight {
+  color: var(--color-warm-grey);
+}
+
+.deliverableLabel {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight:900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctaGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.serviceExternalLink {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+  width: fit-content;
+}
+
+.serviceExternalLink:hover {
+  color: var(--color-text-primary);
+}
+
+.serviceExternalLinkLight {
+  color: rgba(236, 233, 227, 0.4);
+}
+
+.serviceExternalLinkLight:hover {
+  color: rgba(236, 233, 227, 0.75);
+}
+
+.enquireBtn {
+  display: inline-block;
+  background: var(--color-brand-primary);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 1.1rem 2.5rem;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  width: fit-content;
+  transition: background 0.2s ease;
+}
+
+.enquireBtn:hover {
+  background: #9e3616;
+}
+
+/* ——— Service image ——— */
+
+.serviceImage {
+  position: relative;
+}
+
+.serviceImageWrapper {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.serviceImg {
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.serviceImageWrapper:hover .serviceImg {
+  transform: scale(1.03);
+}
+
+/* ——— Coming Soon ——— */
+
+.comingSoonSection {
+  background: var(--color-surface-base);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.comingSoonInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.comingSoonHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.comingSoonHeading {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  color: var(--color-brand-authority);
+  line-height: 1.2;
+}
+
+.comingSoonGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .comingSoonGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.comingSoonCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: var(--space-lg) var(--space-md);
+  border: 1px dashed var(--color-border-default);
+  opacity: 0.5;
+}
+
+.comingSoonNum {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  color: var(--color-warm-grey);
+}
+
+.comingSoonName {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: var(--color-brand-authority);
+}
+
+.comingSoonTagline {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}

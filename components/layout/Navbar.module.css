@@ -1,0 +1,239 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.75rem 2.5rem;
+  color: var(--color-white);
+  /* Solid dark fallback — legible over any content if JS scroll events don't fire */
+  background: var(--color-surface-inverse);
+}
+
+/* On desktop only, start transparent over the hero — JS adds .scrolled after 80px */
+@media (min-width: 900px) {
+  .navbar {
+    background: transparent;
+  }
+}
+
+@media (max-width: 899px) {
+  .navbar {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .navbar {
+    transition: background 0.3s ease, padding 0.3s ease, color 0.3s ease;
+  }
+}
+
+.navbar.scrolled {
+  background: var(--color-surface-base);
+  color: var(--color-brand-authority);
+  padding: 1.25rem 2.5rem;
+  box-shadow: 0 1px 0 var(--color-border-default);
+}
+
+/* ——— Logo ——— */
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  line-height: 1;
+  background-image: url("../../public/logo2.svg");
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+@media (max-width: 899px) {
+  .logo {
+    width: 120px;
+    height: 40px;
+  }
+}
+
+.logo::after{
+  background-image: url("../../public/logo.svg");
+  width:200px;
+  height:100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: width 0.2s ease;
+}
+
+
+.logoAitken {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.logoInteractive {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+/* ——— Desktop nav ——— */
+
+.desktopNav {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .desktopNav {
+    display: block;
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navLink,
+.navButton {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: inherit;
+  position: relative;
+  padding-bottom: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.navLink::after,
+.navButton::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-brand-primary);
+  transition: width 0.2s ease;
+}
+
+.navLink:hover::after,
+.navButton:hover::after,
+.navLink.active::after {
+  width: 100%;
+}
+
+/* ——— Hamburger ——— */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* Minimum 44×44px touch target for accessibility */
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* Removes iOS 300ms tap delay */
+  touch-action: manipulation;
+}
+
+@media (min-width: 900px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburgerLine {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background: currentColor;
+  transition: opacity 0.2s ease;
+}
+
+/* ——— Mobile overlay ——— */
+
+/* Always in DOM; display:none is immune to the iOS visibility/pointer-events bug */
+.mobileMenu {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: var(--color-surface-inverse);
+  align-items: center;
+  justify-content: center;
+}
+
+/* React adds this class; inline script adds global .nav-open as fallback */
+.mobileMenuOpen {
+  display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes menuFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .mobileMenuOpen {
+    animation: menuFadeIn 0.25s ease forwards;
+  }
+}
+
+.mobileClose {
+  position: absolute;
+  top: 1.75rem;
+  right: 2.5rem;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--color-text-inverse);
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.mobileClose:hover {
+  color: var(--color-brand-primary);
+}
+
+.mobileNavList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.mobileNavLink {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  font-weight: 400;
+  color: var(--color-text-inverse);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.mobileNavLink:hover,
+.mobileActive {
+  color: var(--color-brand-primary);
+}

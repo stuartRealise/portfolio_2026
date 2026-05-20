@@ -1,0 +1,117 @@
+{
+  "slug": "great-rail-journeys-digital-vision",
+  "title": "Great Rail Journeys",
+  "client": "Great Rail Journeys",
+  "heroImage": "/assets/GRJ/heroImage.jpg",
+  "summary": "Developed a comprehensive design vision for GRJ's digital future, focusing on modernising the authoring experience while maintaining a premium, customer-centred brand aesthetic.",
+  "role": "Lead user experience designer",
+  "duration": "1 week",
+  "year": "2021",
+  "tags": ["UX Strategy", "Content Strategy", "Digital Vision", "Authoring Experience"],
+  "indexImage": "/assets/logos/WORK_GRJ.svg",
+  "indexTeaser": "Articulating a design vision for the future of GRJ, focusing on improving both the end-user experience and the content authoring process.",
+  "sections": {
+    "oversight": {
+      "blurb": "GRJ offers escorted international rail tours. The project aimed to put forward a design vision that could showcase technical capability while drastically enhancing the customer experience. The focus was equally split between simplifying the end-user conversion path and improving the back-end content authoring experience.",
+      "keyFacts": [
+        { "label": "Client", "value": "Great Rail Journeys" },
+        { "label": "Role", "value": "Lead user experience designer" },
+        { "label": "Duration", "value": "1 week" },
+        { "label": "Year", "value": "2021" }
+      ]
+    },
+    "problem": {
+      "heading": "The Problem Statement",
+      "body": "The existing site faced key challenges.\n\nThe number of successful conversions was disproportionate to the number of site visitors. The visual design required updating with a focus on usability and desired outcomes. Content authors were manually updating content across numerous locations—making the process difficult to manage and resulting in significant technical debt.",
+      "images": [
+        {
+          "url": "/assets/GRJ/problem1.jpg",
+          "caption": "The existing GRJ website, with a dated visual design and a complex content management process."
+        }
+      ]
+    },
+    "decision": {
+      "heading": "The Strategy",
+      "body": "The decision was to shift the focus from simply adapting the online service to showcasing a superior, user-centric digital vision. The recommendation was to conduct intensive workshops with teams to surface solutions that would eliminate existing workarounds and frustrations. I paid special attention to how people are likely to behave with this service on the move.",
+      "images": [
+        {
+          "url": "/assets/GRJ/strategy.jpg",
+          "caption": "I wanted to accentuate the tablet and mobile experience and devlier a firt class decsion making process. Clear taxonomical structures, reusable components, and a focus on the most important content were key to this vision."
+        }
+      ]
+    },
+    "methods": {
+      "heading": "Research & Approach",
+      "body": "A mix of deep user understanding and technical analysis was required to build a credible and actionable vision.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "User Research",
+          "description": "Conducting user interviews, diary studies, and ethnographic research to understand user mental models and key friction points."
+        },
+        {
+          "number": "02",
+          "title": "Heuristic Analysis",
+          "description": "Analysing the site and content for usability improvements and measurable quantitative data points, including heat-mapping software implementation."
+        },
+        {
+          "number": "03",
+          "title": "Strategic Workshops",
+          "description": "Running alignment and strategy workshops focused on improving the authoring experience and aligning design decisions with measurable outcomes."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The Solution Vision",
+      "body": "The solution is a highly sophisticated, dual-purpose platform: an exceptional front-end experience for customers, underpinned by an incredibly easy-to-use authoring experience for content teams.\n\nKey components included full-screen cinematic visuals (images, videos, stories), improved mobile-first responsive design, and reusable interfaces with a dynamic content categorisation system.",
+      "images": [
+        {
+          "url": "/assets/GRJ/solution1.jpg",
+          "caption": "A visually appealing solution to quite a complex problem. Thinking insystems, universal actors and content authoring."
+        },
+        {
+          "url": "/assets/GRJ/editorial-experience.jpg",
+          "caption": "I wanted the editorial experience to be just as anjoyable for the authors. I created an inline design editor where users could eaily publish content in visual way. Improving marketing speed and reducing the need for technical support. This was a key part of the vision, as it would have a significant impact on the business and the customer experience."
+        }
+      ]
+    },
+    "outcomes": {
+      "heading": "Outcomes",
+      "body": "Tangible deliverables included a detailed narrative and email marketing guide, a service design blueprint shared across all affected teams, a visual design guide for the email marketing platform (including brand and accessibility considerations), and the implementation of improved customer onboarding journeys.",
+      "metrics": [
+        { "value": "Designed", "label": "Customer onboarding journey" },
+        { "value": "Delivered", "label": "Service design blueprinting" }
+      ]
+    },
+    "reflection": {
+      "heading": "Reflection",
+      "body": "The initial project was paused during the pandemic. The core lesson was that the most valuable outcome was setting the vision and demonstrating agency capabilities—proving that excellent design must always solve the right business problems, not just the visible ones."
+    }
+  },
+  "gallery": [
+    {
+      "url": "/assets/GRJ/strategy.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    },
+    {
+      "url": "/assets/GRJ/problem1.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    },
+    {
+      "url": "/assets/GRJ/editorial-experience.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    },
+    {
+      "url": "/assets/GRJ/bold-new-approach.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    },
+    {
+      "url": "/assets/GRJ/consitent.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    },
+    {
+      "url": "/assets/GRJ/remarkable-tablet-experience.jpg",
+      "caption": "Great Rail Journeys — digital vision design output."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "mod-rp-recruitment-partner-portal",
+  "title": "Recruitment Partner Portal",
+  "client": "MOD — Recruitment Partner Portal",
+  "heroImage": "/assets/RPP/heroImage.jpg",
+  "summary": "Designed and executed a massive portal for a large government organisation to manage a complex, multi-stage recruitment process, ensuring user engagement and data efficiency over two years.",
+  "role": "Senior user experience designer",
+  "duration": "2 years",
+  "year": "2020/21",
+  "tags": ["UX Design", "Government Digital", "Portal Design", "Gamification"],
+  "indexImage": "/assets/logos/WORK_MOD.svg",
+  "indexTeaser": "Delivering an incredibly ambitious recruitment portal over two years, designed to improve the applicant journey and business efficiency for a large government organisation.",
+  "sections": {
+    "oversight": {
+      "blurb": "A large government organisation needed a comprehensive way to manage a massive body of job applicants through a rigorous eligibility process. The goal was to provide an excellent, engaging customer service experience throughout a lengthy application lifecycle.",
+      "keyFacts": [
+        { "label": "Client", "value": "MOD — RPP" },
+        { "label": "Role", "value": "Senior user experience designer" },
+        { "label": "Duration", "value": "2 years" },
+        { "label": "Year", "value": "2020/21" }
+      ]
+    },
+    "problem": {
+      "heading": "The Problem Statement",
+      "body": "The existing user experience suffered from multiple issues.\n\nApplicants lacked context and understanding of desired outcomes throughout the process. Long periods of inactivity passed with no communication from the organisation. The process required single-session completion, making it impossible to save and resume progress. Users were repeatedly asked for the same information. The business suffered from a large drop-off in website traffic, with content inconsistent across the digital estate.",
+      "images": [
+          {
+            "url": "/assets/RPP/problem1.jpg",
+            "caption": "The taxonomy and navigation structure needed to work across multiple platforms, including the website, app, and an isometric camp view. "
+          },
+          {
+            "url": "/assets/RPP/problem2_v2.jpg",
+            "caption": "The traditional website view had to work online and across devices."
+          }
+      ]
+    },
+    "decision": {
+      "heading": "The Strategy",
+      "body": "The core strategic decisions centred on three priorities: ensuring a consistent language and experience across multiple platforms (app, website, isometric camp); allowing applicants to save progress and resume later; and developing mechanisms to keep users engaged during long periods of downtime.",
+      "images": [
+        {
+          "url": "/assets/RPP/strategy1.jpg",
+          "caption": "The strategy was to ensure consitency across 3 platforms, aligned to brand guidelines and architectural nuance. Rules were put in place to ensure a consistent experience across all platforms, with a single point of data collection and a gamified experience to keep users engaged during long periods of inactivity."
+        },
+        {
+          "url": "/assets/RPP/strategy2.jpg",
+          "caption": "Each journey was methodically mapped out to keep recruits interested, engaged and informed. Other actors included recruitment agents who were assigned a number of recruits, and who would be personally responsible for communication through the CMS."
+        }
+      ]
+    },
+    "methods": {
+      "heading": "Research Methods Used",
+      "body": "A multi-faceted approach was used to address both user needs and business constraints across a two-year engagement.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "User Research & Analysis",
+          "description": "Understanding user needs, goals, and observed friction points throughout the recruitment journey—from initial application to final decision."
+        },
+        {
+          "number": "02",
+          "title": "System and Content Audits",
+          "description": "Analysing the current digital estate for consistency, authoring difficulty, and accessibility requirements across all platforms."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The Solution Delivered",
+      "body": "The solution was a unified, integrated system spanning multiple touchpoints.\n\nUser Experience — allowing users to save progress, maintain a point of contact for guidance, and track their application status via a gamified experience.\n\nBusiness Experience — enabling content authors to manage content through a single CMS, reducing overhead and simplifying governance across all platforms.\n\nData — ensuring all required information was collected only once, streamlining the entire process and reducing duplication.",
+      "images": [
+        {
+          "url": "/assets/RPP/outcome.jpg",
+          "caption": "The outcome here was that there were 3 incredible entry points to the portal. a 3D \"game\" view where recruits could explore the barracks in 3D, a traditional website view, and a mobile app view. The taxonomy was consistent across all platforms, with a CMS as a single of source of data truth."
+        }
+      ]
+    },
+    "outcomes": {
+      "heading": "Outputs & Outcomes",
+      "body": "The development of a comprehensive digital ecosystem that addressed both applicant needs and content authoring complexities. Key outputs included the design system, brand guidelines, and the conceptual 'isometric camp' view designed to set realistic expectations for applicants at the outset.",
+      "metrics": [
+        { "value": "Consistent", "label": "Experience across all user touchpoints" },
+        { "value": "Secure", "label": "Single point of data collection" }
+      ]
+    },
+    "reflection": {
+      "heading": "Reflection",
+      "body": "The primary lesson was the importance of comprehensive discovery—specifically, running an initial sprint dedicated to user expectations and UX discovery to alleviate difficulties faced downstream. Further observational research and paper prototyping would improve future projects of this scale."
+    }
+  },
+  "gallery": [
+    {
+      "url": "/assets/RPP/vr.jpg",
+      "caption": "3D isometric user interface concept capable of a VR experience."
+    },
+    {
+      "url": "/assets/RPP/responsive.jpg",
+      "caption": "Fully responsive experience across all device types. Gamified and engaging."
+    },
+    {
+      "url": "/assets/RPP/controlledJourneys.jpg",
+      "caption": "Customer journeys between all three portal views were methodically mapped out and controlled."
+    },
+    {
+      "url": "/assets/RPP/styleGuides.jpg",
+      "caption": "I was personally resposnible for working with a third party on embedding the design system into the CMS, and the creation of all o fthe design system rules that followed."
+    }
+  ]
+}

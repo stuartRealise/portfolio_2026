@@ -1,0 +1,117 @@
+{
+  "slug": "visit-scotland-marketing-automation-program",
+  "title": "VisitScotland",
+  "client": "VisitScotland",
+  "heroImage": "/assets/VS/heroImagev2.jpg",
+  "summary": "Led the redesign of the Marketing Automation Programme (MAP) user experience for Scotland's national tourist board, focusing on consistency and an enhanced visitor journey.",
+  "role": "UX lead consultant",
+  "duration": "9 months",
+  "year": "2021/22",
+  "tags": ["UX Strategy", "Email Marketing", "Digital Transformation", "Branding"],
+  "indexImage": "/assets/logos/WORK_VisitScotland.svg",
+  "indexTeaser": "Led the redesign of the Marketing Automation Programme (MAP) user experience, ensuring consistency and enhancing the visitor journey for Scotland's national tourist board.",
+  "sections": {
+    "oversight": {
+      "blurb": "VisitScotland is the official consumer website for Scotland's national tourist board, working to ensure visitors experience the best of Scotland. The project focused on redesigning the Marketing Automation Programme (MAP) user experience and aligning the digital assets with the brand's premium tourism promise.",
+      "keyFacts": [
+        { "label": "Client", "value": "VisitScotland" },
+        { "label": "Role", "value": "UX lead consultant" },
+        { "label": "Duration", "value": "9 months" },
+        { "label": "Year", "value": "2021/22" }
+      ]
+    },
+    "problem": {
+      "heading": "The Problem Statement",
+      "body": "The teams at VisitScotland impacted by the MAP were siloed and lacked visibility of demands placed on marketing teams.\n\nKey issues included inconsistencies in branding and team agendas leading to variability in customer experience, a very manual internal governance process creating bottlenecks during email automation, and a limited view of the impact of their actions on customers resulting in a lack of measurable success. There were so many styles and very little structure around emails - which in tun lead to a disjointed customer experience.",
+      "images": [
+        {
+          "url": "/assets/VS/theProblemv2.jpg",
+          "caption": "The problem was a combination of internal team silos, inconsistent branding and a lack of visibility of the customer journey."
+        }
+      ]
+    },
+    "decision": {
+      "heading": "The Strategy",
+      "body": "The strategy was to re-align the cross-functional teams and move toward a unified, user-centred design system. This involved defining a consistent visual language and process flow to remove existing workarounds and address the siloed departmental approaches that were undermining the customer experience. \n\nWe aligned on value, goals and how we measure success across the teams, and then created a design system that could be applied across all marketing platforms, including third-party suppliers.",
+      "images": [ {
+          "url": "/assets/VS/EmailGuidancev2.png",
+          "caption": "The problem was a combination of internal team silos, inconsistent branding and a lack of visibility of the customer journey."
+        },
+        {
+          "url": "/assets/VS/personasv2.png",
+          "caption": "Personas were used to create a shared understanding of the customer journey and the different needs of different customer segments."
+        }
+      ]
+    },
+    "methods": {
+      "heading": "Methods Used",
+      "body": "A combination of deep-dive research techniques was employed to create a shared understanding of user needs and internal processes.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "User Research & Analysis",
+          "description": "Conducting research to understand user needs, goals, and objectives across the marketing automation programme."
+        },
+        {
+          "number": "02",
+          "title": "Heuristic Analysis",
+          "description": "Analysing existing email campaigns to understand current models, limitations, and opportunities for improvement."
+        },
+        {
+          "number": "03",
+          "title": "Team Workshops & Interviews",
+          "description": "Holding employee interviews and team alignment workshops to achieve shared goals and foster consensus across departments."
+        },
+        {
+          "number": "04",
+          "title": "Empathy & Blueprinting",
+          "description": "Utilising empathy mapping, personas, archetypes, and service blueprinting to create a comprehensive understanding of how customers use the service."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The Solution Implemented",
+      "body": "The solution involved three main pillars.\n\n 1. Facilitating discussions to re-align cross-functional teams and remove siloed approaches.\n\n 2. Creating a consistent brand design system and content strategy across multiple marketing platforms.\n\n 3. Implementing a design workflow that supported automation, removed unnecessary governance processes, and informed end-to-end measures of success.",
+      "images": [
+        {
+          "url": "/assets/VS/Outcomes.png",
+          "caption": "Visual representations of the final campaign design system."
+        }
+      ]
+    },
+    "outcomes": {
+      "heading": "Outputs",
+      "body": "The outputs included categorised narrative frameworks for all email content, a strategic service design blueprint, a visual design guide applied across the marketing platform (including for third-party suppliers), and accessible, modern email templates significantly improving the customer onboarding journey.",
+      "metrics": [
+        { "value": "Improved", "label": "Customer onboarding journey" },
+        { "value": "Measurable", "label": "Internal team autonomy and satisfaction" }
+      ]
+    },
+    "reflection": {
+      "heading": "Reflection",
+      "body": "The project was successfully launched, requiring the establishment of common goals between customers, the business, and the content teams. Lessons learned highlighted the need to constantly maintain focus on the user-centric experience across all departments—even when internal politics and team structures pull in different directions."
+    }
+  },
+  "gallery": [
+    {
+      "url": "/assets/VS/EmailGuidancev2.png",
+      "caption": "Email campaigns were structured, reflected value, and business metrics were aligned across teams to create a shared understanding of the customer journey and the different needs of different customer segments."
+    },
+    {
+      "url": "/assets/VS/personasv2.png",
+      "caption": "The customer journeys were mapped to personas and archetypes to create a tailored customer journey. Each of them reflected the unique characteristics and the different needs of different customer segments."
+    },
+    {
+      "url": "/assets/VS/Outcomes.png",
+      "caption": "Each email content block was tailored for the campaign, whilst maintaining the same core structure and without losing brand consistency."
+    },
+    {
+      "url": "/assets/VS/emailContentBlocks.png",
+      "caption": "A variety of content bloks were created allowing for journey customisation, well written CTAs, and accessible for all email clients."
+    },
+    {
+      "url": "/assets/VS/responsive.png",
+      "caption": "Email campaigns were smart, and fully responsive, ensuring a seamless experience across all devices and email clients."
+    }
+  ]
+}

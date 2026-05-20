@@ -1,0 +1,129 @@
+{
+  "slug": "opus2-trial-presentations",
+  "title": "Opus2 Trial Presentations",
+  "client": "Opus2",
+  "heroImage": "/assets/Opus2/heroImage.jpg",
+  "summary": "Led the strategic UX direction for Opus2's trial presentation platform — redefining how legal teams prepare, organise, and present evidence in high-pressure courtroom environments where speed, trust, and clarity directly influence legal outcomes.",
+  "role": "Head of Design",
+  "duration": "2 years",
+  "year": "Oct 2023 - Nov 2025",
+  "tags": [
+    "Legal Technology",
+    "Strategic UX",
+    "Enterprise SaaS",
+    "Complex Systems",
+    "Decision Support",
+    "High-Stakes Workflows"
+  ],
+  "indexImage": "/assets/logos/WORK_Opus2.svg",
+  "indexTeaser": "Transforming trial presentation from a document management problem into a high-stakes decision support experience for legal teams operating under courtroom pressure.",
+  "sections": {
+    "oversight": {
+      "blurb": "Due to the sensitive nature of the product, I am not able to show any supporting visuals. \n\nAs Head of Design at Opus2, I led strategic UX and product thinking across complex legal workflows, with a particular focus on trial presentation — the experience barristers and legal teams rely on to organise, sequence, retrieve, and present evidence in court. The challenge extended far beyond interface design. This was a systems and decision-making problem operating within one of the most demanding professional environments imaginable: live courtroom proceedings where delays, ambiguity, or loss of confidence can directly impact legal outcomes.\n\nMy role involved aligning product, engineering, and domain expertise around a clearer operational model of how trial preparation and in-court presentation should function as distinct but connected workflows. The work combined service design thinking, workflow analysis, interaction design, prototyping, usability testing, and strategic stakeholder facilitation.",
+      "keyFacts": [
+        {
+          "label": "Client",
+          "value": "Opus2"
+        },
+        {
+          "label": "Role",
+          "value": "Head of Design"
+        },
+        {
+          "label": "Duration",
+          "value": "2 Years"
+        },
+        {
+          "label": "Focus",
+          "value": "Trial Presentation & Legal Workflow Optimisation"
+        }
+      ]
+    },
+    "problem": {
+      "heading": "The Real Problem",
+      "body": "The presenting problem initially appeared to be usability and workflow inefficiency within the trial presentation interface. Legal teams were spending excessive time preparing evidence bundles, navigating documents, and managing courtroom presentation logistics.\n\nHowever, deeper investigation revealed the issue was not simply interface friction. The underlying problem was that the product treated trial preparation and courtroom presentation as a single continuous workflow despite them representing fundamentally different operational states with different users, pressures, risks, and definitions of success.\n\nPreparation workflows are deliberate, collaborative, and information-heavy. Courtroom presentation is reactive, time-sensitive, and cognitively unforgiving. Barristers needed immediate confidence that they could retrieve and present the correct evidence under pressure without hesitation. Every additional interaction introduced uncertainty, interruption, and risk.\n\nThe consequence was more than inefficiency. Poor workflow separation increased cognitive load during live proceedings, slowed legal teams at critical moments, and reduced trust in the tooling itself. In a courtroom context, even small interaction failures can undermine confidence, interrupt legal momentum, and introduce reputational risk.",
+      "images": []
+    },
+    "decision": {
+      "heading": "Strategic Decisions",
+      "body": "The most important strategic decision was reframing the problem from a document management challenge into a decision-support and operational confidence problem.\n\nRather than optimising screens in isolation, the work focused on redesigning the workflow architecture around the realities of legal practice. The core decision was to separate preparation workflows from in-court presentation workflows entirely — creating two purpose-built experiences optimised for different mental models and operating conditions.\n\nThis shift allowed the product to support both deep preparation and rapid courtroom execution without forcing compromise between them. It also created clearer alignment internally between product strategy, engineering priorities, and user outcomes.\n\nAdditional strategic decisions included:\n\n• Reducing interaction complexity during live presentation scenarios to minimise cognitive overhead under pressure.\n• Improving evidence sequencing and retrieval workflows to better match how legal teams actually prepare cases.\n• Introducing clearer information hierarchy and navigation patterns to improve confidence and speed of access.\n• Aligning workflows around user intent and operational context rather than technical system structure.\n• Facilitating stronger cross-functional alignment between design, engineering, and legal domain specialists through shared workflow mapping and decision-making exercises.\n\nThe result was not simply a cleaner interface, but a more resilient operational model for how legal teams interact with evidence during trial preparation and live proceedings.",
+      "images": []
+    },
+    "methods": {
+      "heading": "Approach",
+      "body": "The approach prioritised understanding the operational realities of legal practice before making interface decisions. Rather than beginning with UI optimisation, the work focused first on mapping workflow behaviour, identifying cognitive bottlenecks, and understanding where confidence broke down during high-pressure usage.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Workflow & Service Mapping",
+          "description": "Mapped the end-to-end lifecycle of trial preparation and courtroom presentation to identify operational friction, duplicated effort, breakdowns in confidence, and hidden dependencies between legal roles. This work reframed the challenge from interface usability to workflow orchestration and decision support."
+        },
+        {
+          "number": "02",
+          "title": "User & Context Analysis",
+          "description": "Worked closely with legal professionals and internal subject matter experts to understand how barristers, solicitors, paralegals, and support staff prepared and presented evidence in practice. Particular focus was placed on how pressure, time sensitivity, and courtroom dynamics influenced interaction behaviour."
+        },
+        {
+          "number": "03",
+          "title": "Interaction Strategy & Prototyping",
+          "description": "Developed and tested interaction models focused on rapid evidence retrieval, simplified presentation controls, and reduced cognitive load during live proceedings. Prototyping was used not only to validate UI behaviour but also to align internal teams around operational intent and workflow strategy."
+        },
+        {
+          "number": "04",
+          "title": "Iterative Validation & Cross-Functional Alignment",
+          "description": "Iterated designs through collaborative review, usability testing, and continuous engagement with product, engineering, and legal stakeholders. The process helped establish shared decision principles around speed, clarity, trust, and operational resilience within the courtroom environment."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The Solution",
+      "body": "The redesigned trial presentation experience introduced a clearer operational separation between preparation workflows and live courtroom presentation. Rather than forcing users through a single complex interface, the platform was restructured around the distinct realities of pre-trial organisation and in-court execution.\n\nPreparation workflows supported deeper information management, evidence sequencing, annotation, and collaborative organisation. The presentation environment focused on rapid retrieval, low-friction navigation, and immediate confidence during live proceedings.\n\nKey design improvements included:\n\n• Simplified navigation structures optimised for high-pressure courtroom usage.\n\n• Faster evidence retrieval and sequencing workflows.\n\n• Clearer information hierarchy and contextual visibility.\n\n• Reduced interaction overhead during live presentation scenarios.\n\n• Improved workflow continuity between preparation and presentation states.\n\n• Greater consistency across user journeys and legal tasks.\n\nImportantly, the work also helped establish stronger internal alignment around how legal workflow complexity should be modelled within the product itself. This created a more scalable foundation for future product evolution and reduced ambiguity across cross-functional delivery teams.",
+      "images": [
+        {
+          "url": "/assets/Opus2/preparation.png",
+          "caption": "Strategic redesign of the trial presentation workflow focused on operational clarity, evidence retrieval, and courtroom confidence. It comprised detachable UI, with controlled contextual information as and when the user needs it. The design was optimised for the realities of legal practice rather than technical system structure."
+        }
+      ]
+    },
+    "outcomes": {
+      "heading": "Outcomes",
+      "body": "While the project established a strong strategic direction and validated workflow model for trial presentation, it ultimately did not progress to full implementation. The engagement surfaced broader organisational constraints that affected delivery momentum, including competing stakeholder priorities, compressed timelines, unclear ownership, and limited alignment between product, engineering, and leadership teams. As the work evolved, it became clear that many of the barriers were structural rather than purely interface-related — particularly around governance, decision-making accountability, and operational alignment.\n\n Although the final product direction was never fully realised, the work created greater visibility into the realities of legal workflows and exposed several risks within the existing delivery model. The engagement became an important turning point in my own practice, reinforcing that successful product outcomes depend as much on organisational clarity and cross-functional trust as they do on design execution. It also strengthened my focus on strategic decision-making, workflow architecture, and identifying failure points earlier in the product lifecycle.",
+      "metrics": [
+        {
+          "value": "Clarified",
+          "label": "Operational and workflow risks impacting courtroom usability"
+        },
+        {
+          "value": "Exposed",
+          "label": "Governance and alignment gaps affecting product delivery"
+        },
+        {
+          "value": "Established",
+          "label": "A clearer strategic model for preparation and presentation workflows"
+        }
+      ]
+    },
+    "reflection": {
+      "heading": "Reflection",
+      "body": "This project fundamentally changed how I think about UX in high-stakes environments. The challenge was never simply about usability — it was about confidence, operational resilience, and supporting decision-making under pressure.\n\nLegal professionals are expert users operating within genuinely complex systems. Simplifying the interface indiscriminately would have reduced capability rather than improved it. The real challenge was identifying where complexity was necessary, where it was accidental, and how to reduce cognitive burden without compromising professional control.\n\nThe engagement also reinforced the importance of strategic framing in design leadership. The most impactful work did not come from individual screens or features, but from helping teams redefine the problem correctly in the first place. Once the organisation aligned around the distinction between preparation and presentation workflows, better product decisions became significantly easier to make.\n\nThis experience became a major influence on my transition from traditional UX delivery toward strategic decision support and workflow design — particularly within complex enterprise and AI-driven environments where clarity, trust, and operational alignment matter more than interface aesthetics alone."
+    }
+  },
+  "gallery": [
+    {
+      "url": "/assets/Opus2/Prepare.png",
+      "caption": "Preparation invoves deep information management, evidence sequencing, annotation, and collaborative organisation — distinct from the needs of live courtroom presentation. It is essential to separate these workflows to reduce cognitive load and improve confidence during high-pressure legal proceedings."
+    },
+    {
+      "url": "/assets/Opus2/organise.png",
+      "caption": "The next step is to define the core documents for trial presentation. The decision was to separate 'preparation' workflows from in-court presentation workflows entirely — creating two purpose-built experiences optimised for different mental models and operating conditions. The user needs to separate document management and case organisation for the purpose of live presentation."
+    },
+    {
+      "url": "/assets/Opus2/trialready.png",
+      "caption": "Working closely with trial technicians/hot seat operators to understand how they prepare and present evidence in practice. Particular focus was placed on how pressure, time sensitivity, and courtroom dynamics influenced interaction behaviour. The trial ready workflow is focused on ensuring the right documents are available and organised for live presentation."
+    },
+    {
+      "url": "/assets/Opus2/Present.png",
+      "caption": "The largest piece of the puzzle is in the presentation layer. The work focused on the product to supporting rapid courtroom execution without forcing compromise between what the courts see and what the presenter needs."
+    }
+  ]
+}

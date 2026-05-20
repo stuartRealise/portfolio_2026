@@ -1,0 +1,12 @@
+.label {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+.light {
+  color: rgba(236, 233, 227, 0.55);
+}

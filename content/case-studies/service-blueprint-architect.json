@@ -1,0 +1,123 @@
+{
+  "slug": "service-blueprint-architect",
+  "title": "Service Blueprint Architect",
+  "client": "Self-Initiated-Proprietary working Product",
+  "heroImage": "/assets/SBArchitect/heroImage.jpg",
+  "summary": "Designed the complete product architecture for a mobile-first collaborative platform that helps UX teams create, govern, and publish service blueprints — with role-based access, approval workflows, and WCAG 2.1 AA accessibility built in from day one.",
+  "role": "Product Designer & Architect",
+  "duration": "14 weeks (planned)",
+  "year": "2026",
+  "tags": ["Product Design", "Architecture", "Accessibility", "Collaboration", "Design Systems"],
+  "indexImage": "/assets/logos/WORK_SBA.svg",
+  "indexTeaser": "Building a collaborative platform for service design teams with governance workflows, multi-user collaboration, and accessibility-first design.",
+  "sections": {
+    "oversight": {
+      "blurb": "Service Blueprint Architect is a self-initiated product design project: a mobile-first, web-based platform that helps UX designers create, manage, and govern service blueprints collaboratively. The work covered the full spectrum of product design — from strategic architecture through data modelling, RBAC system design, API specification, and a five-phase implementation plan.",
+      "keyFacts": [
+        { "label": "Client", "value": "Self-Initiated" },
+        { "label": "Role", "value": "Product Designer & Architect" },
+        { "label": "Duration", "value": "14 weeks (planned)" },
+        { "label": "Year", "value": "2026" }
+      ]
+    },
+    "problem": {
+      "heading": "The Problem Statement",
+      "body": "Service design is inherently collaborative, yet most teams were using disconnected tools: whiteboards, spreadsheets, Google Slides, and email chains. There was no single source of truth — and no way to govern changes, track approvals, or maintain version history across a team.\n\nService designers need to visualise complex user journeys across multiple actors, touchpoints, and phases. Teams need to approve changes, coordinate tasks, and audit decisions. Yet existing tools are either too simple for team use or too heavyweight and generic for service design specifically.\n\nThe core challenge: how do you build a tool that serves a solo designer, scales to a multi-person team with a governance workflow, and does all of this accessibly on mobile?",
+      "images": []
+    },
+    "decision": {
+      "heading": "The Strategy",
+      "body": "Five architectural decisions shaped everything that followed.\n\nCMS-style staging over real-time collaboration — governance requires explicit approval. One draft per user per blueprint eliminates merge conflicts and supports decision-making workflows without the complexity of operational transformation. Simpler architecture, clearer team alignment.\n\nWCAG 2.1 AA accessibility from Phase 1, not Phase 5 — accessibility forces clarity. Clear focus states, semantic HTML, and logical keyboard navigation benefit all users, and a mobile-first approach naturally emerges from the same constraints.\n\nA four-role RBAC system (Owner, Editor, Stakeholder, Viewer) — roles that map to actual team personas rather than an admin/user dichotomy. Separating editing from approving from publishing removes ambiguity and enables genuine governance.\n\nA canonical data schema as a single source of truth — one JSON structure that all input formats, transformations, and exports conform to. Consistency, testability, and future-proof integrations follow.\n\nA five-phase modular build plan — breaking 14 weeks into pauseable, testable phases means an MVP can ship after Phase 2 without abandoning the broader vision.",
+      "images": [
+        {
+          "url": "/assets/SBArchitect/mobile.jpg",
+          "caption": "Service Blueprint Architect — architectural decision overview."
+        }
+      ]
+    },
+    "methods": {
+      "heading": "Approach",
+      "body": "The design work spanned five distinct activities, each producing a concrete artefact that feeds into the implementation.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Problem Definition & Scope Setting",
+          "description": "Mapping the gap between how service design teams actually work (disconnected tools, email approval chains, lost version history) and what a purpose-built platform could provide. Defined the initial scope as a mobile-friendly blueprint creation tool, which evolved into a full collaborative platform with drafting, approval workflows, task management, version control, and RBAC."
+        },
+        {
+          "number": "02",
+          "title": "Architectural Decision-Making",
+          "description": "Evaluating the core trade-offs: real-time collaboration vs CMS-style staging; granular permissions vs semantic roles; format-specific data models vs a canonical schema. Each decision was documented with the alternatives considered and the rationale for the chosen approach — producing a decision log that any developer can follow."
+        },
+        {
+          "number": "03",
+          "title": "Data Modelling & API Specification",
+          "description": "Designing eight normalised PostgreSQL tables covering users, blueprints, drafts, tasks, approval workflows, audit logs, notifications, and permissions. Specifying 26 REST API endpoints with RBAC applied at every layer — authentication, authorisation, and business logic kept cleanly separated."
+        },
+        {
+          "number": "04",
+          "title": "Governance & RBAC System Design",
+          "description": "Designing the four-role permission system and the approval workflow engine — how drafts move from creation through review to published state, how Stakeholders approve without editing access, and how the audit log captures every state change for accountability."
+        },
+        {
+          "number": "05",
+          "title": "Phased Implementation Planning",
+          "description": "Producing a 14-week plan with five self-contained, pauseable phases: Foundation (auth + schema), Core Editor (input parsing + export), Collaboration (drafts + approvals), Task Management, and Real-Time + Accessibility polish. Each phase has clear completion criteria so work can pause and resume without losing context."
+        }
+      ]
+    },
+    "solution": {
+      "heading": "The Solution",
+      "body": "The output is a complete product specification — 15,000+ words covering every layer of the platform.\n\nThe frontend is React with a mobile-first responsive design (320px, 640px, 1024px breakpoints), touch-first interaction targets, keyboard navigation, ARIA labelling, and prefers-reduced-motion support throughout.\n\nThe core logic is four modular subsystems: an Input Layer accepting prose, CSV, Q&A, and image-based entry; an Enrichment Layer that suggests touchpoints and infers pain points; a Visualisation Layer producing HTML, SVG, XLSX, and Figma exports; and the Canonical Schema binding them all together.\n\nThe backend is Node.js with PostgreSQL — JWT authentication with refresh tokens, RBAC on every endpoint, a draft/publish workflow, an approval engine, task management, audit logging, and WebSocket support for real-time notifications.",
+      "images": [
+        {
+          "url": "/assets/SBArchitect/solution1.jpg",
+          "caption": "The first thing I would do is probably use the tool to build out a stable blueprint. I can use AI to help get it setup and then start from a point of familiarity to test the collaboration and governance workflows with real users."
+        },
+        {
+          "url": "/assets/SBArchitect/solution2.jpg",
+          "caption": "RBAC and account management workflows — the Owner creates a blueprint, invites Editors and Stakeholders, and manages permissions. Editors can create drafts, but only Stakeholders can approve them to publish. This can happen anywhere, anytime."
+        }
+      ]
+    },
+    "outcomes": {
+      "heading": "Outputs",
+      "body": "The project produced a complete, implementation-ready specification: a five-phase plan, a database schema with eight normalised tables, 26 fully defined REST API endpoints, a four-role RBAC system, a mobile-first responsive design, a WCAG 2.1 AA compliance framework, and a progress tracking system so development can pause and resume at any phase boundary without losing momentum.",
+      "metrics": [
+        { "value": "15,000+", "label": "Word architectural specification, ready for developer handoff" },
+        { "value": "26", "label": "REST API endpoints fully defined with RBAC applied" },
+        { "value": "WCAG 2.1 AA", "label": "Accessibility standard targeted from Phase 1, not Phase 5" }
+      ]
+    },
+    "reflection": {
+      "heading": "Reflection",
+      "body": "The clearest lesson from this project was that governance is architecture — approval workflows, role separation, and version control aren't features you bolt on at the end, they're decisions that shape the entire platform from the data model upward. Choosing CMS-style staging over real-time editing wasn't a compromise; it was the right architectural fit for the domain.\n\nBuilding for accessibility from the start also proved its value. Designing for keyboard navigation, semantic HTML, and clear focus states forced better UX decisions across the board — it made the mobile experience sharper, not harder.\n\nThe main thing I would do differently: validate the collaboration workflow with real service design teams earlier, before the data model is fully locked. The RBAC system reflects reasonable assumptions about team structure, but the approval workflow in particular would benefit from observational research with teams doing live governance work."
+    }
+  },
+  "gallery": [
+    {
+      "url": "/assets/SBArchitect/alignedExecs.jpg",
+      "caption": "Use this tool to communicate the vision to executives and developers alike — the architectural decisions, the rationale, and the implementation plan all in one place."
+    },
+    {
+      "url": "/assets/SBArchitect/mobile.jpg",
+      "caption": "Mobiles and tablets are the benchmark for on the move work. Edit, assign tasks, comment and approve from anywhere, on any device."
+    },
+    {
+      "url": "/assets/SBArchitect/solution1.jpg",
+      "caption": "Do your heavy lifting, thinking work, and complex decision-making in the early phases. The later phases are for polish, real-time collaboration, and accessibility improvements — not core functionality.A good balance of strategic foresight and tactical pragmatism is key to a project like this."
+    },
+    {
+      "url": "/assets/SBArchitect/thetool.jpg",
+      "caption": "Do your heavy lifting, thinking work, and complex decision-making in the early phases. The later phases are for polish, real-time collaboration, and accessibility improvements — not core functionality.A good balance of strategic foresight and tactical pragmatism is key to a project like this."
+    },
+    {
+      "url": "/assets/SBArchitect/solution2.jpg",
+      "caption": "As you work through the phases, the platform becomes more and more usable — even if you paused after Phase 2, you'd have a functional blueprint editor with export capabilities. The later phases add collaboration and polish, but the core value is there from the start."
+    },
+    {
+      "url": "/assets/SBArchitect/mainaccount.jpg",
+      "caption": "As you work through the phases, the platform becomes more and more usable — even if you paused after Phase 2, you'd have a functional blueprint editor with export capabilities. The later phases add collaboration and polish, but the core value is there from the start."
+    }
+  ]
+}

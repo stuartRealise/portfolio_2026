@@ -1,0 +1,39 @@
+{
+  "name": "Stuart Aitken",
+  "company": "Aitken Interactive",
+  "title": "Decision Designer & Service Strategist",
+  "tagline": "Decision Designer & Service Strategist",
+  "bio": "Aitken-Interactive helps founders and product leaders build better SaaS products — through UX strategy, design systems, and structured decision-making that reduces risk before costly mistakes take hold. With more than 20 years of experience across complex digital products, I work at the intersection of user needs, business goals, and delivery realities — helping teams bring clarity to ambiguity, align around measurable outcomes, and design products people can trust and adopt.",
+  "domain": "aitken-interactive.co.uk",
+  "email": "stuart@aitken-interactive.co.uk",
+  "social": {
+    "linkedin": "https://linkedin.com/in/aitkeninteractive"
+  },
+  "about": {
+    "pullQuote": "Products succeed when decisions are grounded in evidence, shaped by real user behaviour, and aligned around a clear definition of success.",
+    "heroImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80",
+    "portraitImage": "/assets/about/aboutStu_portrait.png",
+    "credentials": [
+      { "year": "early 2009", "role": "Founded Aitken Interactive - ", "context": "Independent UX strategy and decision design consultancy" },
+      { "year": "2023-2025", "role": "Head of UX, Opus2, ", "context": "Established design systems and UX best practices, improving design consistency and scalability." },
+      { "year": "2020-2023", "role": "Lead UX Consultant, AND Digital", "context": "Led UX strategy and design for large-scale projects for clients including Sky, Bella & Duke, and Rocktrust" },
+      { "year": "2020-2023", "role": "UX Consultant, VisitScotland [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
+      { "year": "2019-2020", "role": "UX Consultant, Tesco Bank [Contract]", "context": "Led UX for the marketing automation programme (MAP), including user research, stakeholder management, and service blueprinting." },
+      { "year": "2019-2020", "role": "Consultant, Equator [Contract]", "context": "Led customer definition and business goal alignment for a SaaS platform." }
+    ],
+    "values": [
+      {
+        "name": "Evidence Over Assumption",
+        "description": "Good design decisions are never guesses. Every recommendation I make is grounded in user evidence, business data, and structured analysis — not intuition or convention."
+      },
+      {
+        "name": "Clarity Under Pressure",
+        "description": "The most valuable thing I can give a leadership team facing a hard decision is clarity. I cut through noise, surface what actually matters, and make the path forward legible."
+      },
+      {
+        "name": "Design as Strategy",
+        "description": "Design is not decoration. It is how you build the right product for the right people at the right time. When design thinking is embedded in strategy, products stop failing in the market."
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "decision-intelligence-audit",
+    "slug": "decision-intelligence-audit",
+    "status": "active",
+    "name": "Decision Intelligence Audit",
+    "shortName": "Decision Audit",
+    "tagline": "Certainty under ambiguity.",
+    "description": "When a critical product, AI, or delivery decision begins to stall, alignment breaks down fast. Teams move in different directions, assumptions go unchallenged, and risk becomes harder to see. \n\nOver 72 hours, I work with your team to uncover friction, challenge assumptions, and evaluate the evidence behind the decision  delivering a structured, decision-ready report with clear risks, opportunities, and next steps.",
+    "duration": "72 hour",
+    "deliverable": "Evidence-based, decision report",
+    "image": "/assets/services/decision-intelligence-audit.svg",
+    "imageAlt": "Strategy session around a table with documents and laptops",
+    "intakeFields": [
+      { "name": "name", "label": "Your name", "type": "text", "required": true },
+      { "name": "email", "label": "Email address", "type": "email", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "required": true },
+      { "name": "decision", "label": "Describe the decision you're facing", "type": "textarea", "required": true },
+      {
+        "name": "urgency",
+        "label": "When do you need resolution?",
+        "type": "select",
+        "options": ["Within 2 weeks", "Within a month", "Within 3 months", "No hard deadline"],
+        "required": true
+      },
+      { "name": "notes", "label": "Anything else I should know?", "type": "textarea", "required": false }
+    ],
+    "externalLink": {
+      "href": "https://seventy-two-audit.co.uk",
+      "label": "Visit seventy-two-audit.co.uk"
+    }
+  },
+  {
+    "id": "heuristic-evaluation",
+    "slug": "heuristic-evaluation",
+    "status": "active",
+    "name": "Heuristic Evaluation",
+    "shortName": "UX Evaluation",
+    "tagline": "What your UX is really costing you.",
+    "description": "Poor UX rarely appears as a single problem. It shows up as slower adoption, inconsistent behaviour, support overhead, abandoned journeys, and growing delivery complexity. \n\nIn 72 hours, I conduct a structured heuristic evaluation of your product and deliver a commercially-framed report that connects usability friction directly to customer trust, operational risk, and missed growth opportunities.",
+    "duration": "72 hour",
+    "deliverable": "Commercially-framed UX impact report",
+    "image": "/assets/services/heuristic-evaluation.svg",
+    "imageAlt": "Designer reviewing interface designs on a large monitor",
+    "intakeFields": [
+      { "name": "name", "label": "Your name", "type": "text", "required": true },
+      { "name": "email", "label": "Email address", "type": "email", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "required": true },
+      { "name": "productUrl", "label": "Product URL (if applicable)", "type": "url", "required": false },
+      { "name": "context", "label": "What's the business context?", "type": "textarea", "required": true },
+      { "name": "audience", "label": "Who are your primary users?", "type": "text", "required": true },
+      { "name": "notes", "label": "Any areas of particular concern?", "type": "textarea", "required": false }
+    ]
+  },
+  { "id": "service-03", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },
+  { "id": "service-04", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },
+  { "id": "service-05", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" },
+  { "id": "service-06", "status": "coming-soon", "name": "Coming Soon", "tagline": "A new service is in development.", "description": "" }
+]

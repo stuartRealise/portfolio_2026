@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C1810;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5C3020;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <text x="800" y="420" font-family="Georgia, serif" font-size="72" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold" opacity="0.9">Great Rail Journeys</text>
+  <text x="800" y="510" font-family="Georgia, serif" font-size="32" fill="#D0A888" text-anchor="middle" dominant-baseline="middle">Digital Vision &amp; Authoring Experience</text>
+  <text x="800" y="580" font-family="Georgia, serif" font-size="22" fill="#A07858" text-anchor="middle" dominant-baseline="middle">[ Placeholder — replace with project imagery ]</text>
+</svg>

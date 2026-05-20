@@ -1,0 +1,139 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: var(--space-lg);
+  border-left: 4px solid transparent;
+  transition: border-color 0.3s ease, background 0.3s ease;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: var(--space-md);
+    gap: var(--space-sm);
+  }
+}
+
+.card:hover {
+  border-left-color: var(--color-brand-primary);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight:900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-brand-primary);
+  border: 1px solid var(--color-brand-primary);
+  padding: 0.3rem 0.8rem;
+  width: fit-content;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  color: var(--color-text-inverse);
+  line-height: 1.2;
+}
+
+.tagline {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  /* font-style: italic; */
+  color: rgba(236, 233, 227, 0.7);
+  line-height: 1.4;
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: rgba(236, 233, 227, 0.6);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.ctaGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.externalLink {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(236, 233, 227, 0.4);
+  transition: color 0.2s ease;
+  width: fit-content;
+}
+
+.externalLink:hover {
+  color: rgba(236, 233, 227, 0.7);
+}
+
+.link {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-brand-primary);
+  transition: letter-spacing 0.2s ease;
+  width: fit-content;
+}
+
+.link:hover {
+  letter-spacing: 0.2em;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+/* ——— Coming Soon Slots ——— */
+
+.comingSoon {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: var(--space-md) var(--space-lg);
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  opacity: 0.4;
+}
+
+.comingSoonNumber {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  color: var(--color-warm-grey);
+}
+
+.comingSoonLabel {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--color-text-inverse);
+  font-weight: 400;
+}
+
+.comingSoonTagline {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-warm-grey);
+  line-height: 1.5;
+}

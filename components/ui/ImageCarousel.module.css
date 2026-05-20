@@ -1,0 +1,87 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.track {
+  /* display: flex; */
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  flex: 0 0 min(85vw, 700px);
+  scroll-snap-align: start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.imageWrapper {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .slide[role='button']:hover .image {
+    transform: scale(1.02);
+  }
+
+  .image {
+    transition: transform 0.4s ease;
+  }
+}
+
+.caption {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-border-strong);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  padding: 0;
+}
+
+.dotActive {
+  background: var(--color-brand-primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dot {
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .dotActive {
+    transform: scale(1.3);
+  }
+}

@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.imageBtn {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: zoom-in;
+}
+
+.imageWrapper {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .image {
+    transition: transform 0.4s ease;
+  }
+
+  .imageBtn:hover .image {
+    transform: scale(1.03);
+  }
+}
+
+.hoverOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 30, 26, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.imageBtn:hover .hoverOverlay {
+  opacity: 1;
+}
+
+.expandIcon {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.caption {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}

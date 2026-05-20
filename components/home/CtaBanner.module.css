@@ -1,0 +1,74 @@
+.section {
+  background: var(--color-surface-inverse);
+  padding: var(--space-xl) var(--space-md);
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: 400;
+  color: var(--color-text-inverse);
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: var(--text-3xl);
+  }
+}
+
+.subline {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--color-warm-grey);
+  line-height: 1.6;
+  max-width: 50ch;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+  margin-top: var(--space-sm);
+}
+
+.btn {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight:900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 1.1rem 2.5rem;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  background: var(--color-brand-primary);
+  color: var(--color-white);
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #9e3616;
+}
+
+.btnOutline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--color-text-inverse);
+}
+
+.btnOutline:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.4);
+}

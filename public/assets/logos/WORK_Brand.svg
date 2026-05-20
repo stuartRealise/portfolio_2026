@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1410;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3A2C20;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <text x="800" y="390" font-family="Georgia, serif" font-size="72" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold" opacity="0.9">Aitken Interactive</text>
+  <text x="800" y="480" font-family="Georgia, serif" font-size="32" fill="#C8A882" text-anchor="middle" dominant-baseline="middle">Brand Identity &amp; Design System</text>
+  <text x="800" y="560" font-family="Georgia, serif" font-size="22" fill="#887060" text-anchor="middle" dominant-baseline="middle">[ Placeholder — replace with project imagery ]</text>
+</svg>

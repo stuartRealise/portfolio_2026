@@ -1,0 +1,14 @@
+{
+  "generalInquiry": {
+    "heading": "Start a conversation",
+    "description": "Not sure which service fits? Tell me what you're working on and I'll point you in the right direction.",
+    "fields": [
+      { "name": "name", "label": "Your name", "type": "text", "required": true },
+      { "name": "email", "label": "Email address", "type": "email", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "required": false },
+      { "name": "message", "label": "What are you working on?", "type": "textarea", "required": true }
+    ]
+  },
+  "successMessage": "Thank you — I'll be in touch within one business day.",
+  "errorMessage": "Something went wrong. Please try again or email hello@aitken-interactive.co.uk directly."
+}

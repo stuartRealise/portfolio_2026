@@ -1,0 +1,102 @@
+{
+  "slug": "seventy-two-audit-platform",
+  "title": "Seventy-Two Audit",
+  "client": "Self-Initiated",
+  "heroImage": "/assets/72/heroImage1.jpg",
+  "summary": "Designed and built seventy-two-audit.co.uk — a proprietary digital audit tool taken from initial concept through to production, built to make structured UX and content audits faster, more consistent, and more actionable.",
+  "role": "Product owner, Designer & Builder",
+  "duration": "2-3 weeks",
+  "year": "2026",
+  "tags": ["Product Design", "Self-Initiated", "UX Audit", "Design Tools"],
+  "indexImage": "/assets/logos/WORK_72Audit.svg",
+  "indexTeaser": "From idea to production: designing and building a proprietary audit tool to bring structure, consistency, and speed to digital UX and content audits.",
+  "sections": {
+    "oversight": {
+      "blurb": "Seventy-Two-Audit.co.uk is a proprietary web-based platform designed to structure, accelerate, and operationalise the audit process for digital products and services. This is an inrtinsic part of the service I provide. \n\nThe tool was created in response to a recurring problem within product and consultancy environments: organisations often move into delivery, redesign, or AI implementation without first establishing a clear understanding of the operational, UX, and decision-making risks already present within their systems. Traditional audits frequently become static documents or subjective opinion pieces. Seventy-Two Audit was designed instead as a structured decision-support framework — helping teams surface evidence, identify friction, prioritise risk, and create clearer pathways to action.\n\nThe name reflects the consultancies core operating principle: delivering high-value strategic clarity within a focused seventy-two-hour engagement window. Rather than lengthy consulting cycles or abstract discovery phases, the platform was built around rapid evidence gathering, structured analysis, and executive-level reporting designed to support faster, more confident decision-making. The project moved from initial concept through to live production deployment at seventy-two-audit.co.uk, combining UX strategy, systems thinking, workflow design, AI-assisted analysis, and full-stack product implementation into a functioning consultancy platform.",
+      "keyFacts": [
+        { "label": "Client", "value": "Self-Initiated" },
+        { "label": "Role", "value": "Product Designer & Builder" },
+        { "label": "Duration", "value": "2-3 weeks from concept to production, with ongoing iteration" },
+        { "label": "Year", "value": "2026" }
+      ]
+    },
+    "problem": {
+      "heading": "The Problem Statement",
+      "body": "The real problem is not execution. It's evidence based decision making. The problem is that audits are often inconsistent, time-consuming, and produce outputs that are difficult for clients to act on. Existing approaches — typically spreadsheets or manual processes — lack structure and standardisation, leading to variability in quality and usefulness. The goal was to create a tool that enforces a consistent audit methodology, streamlines the process, and generates actionable insights for clients.",
+      "images": []
+    },
+    "decision": {
+      "heading": "The Strategy",
+      "body": "The core strategic decision was to build Seventy-Two-Audit as an opinionated decision-support system rather than a flexible audit framework. While flexibility often sounds valuable, it frequently creates inconsistency — different auditors producing different standards of evidence, analysis, and outcomes. The platform was designed instead to guide users through a structured process that reinforces clarity, consistency, and evidence-led decision-making under time pressure.\n\nThe delivery approach prioritised speed to production and real-world validation over feature completeness. Rather than building a polished concept, the goal was to launch a working operational tool that could evolve through live consulting engagements and practical use. Every decision — from workflow structure to technical implementation — was focused on reducing ambiguity, accelerating insight generation, and helping organisations make better decisions earlier in the product lifecycle.",
+      "images": []
+    },
+    "methods": {
+  "heading": "Approach",
+  "body": "The project moved through four phases: defining the audit methodology, designing the product experience, building the platform, and deploying it into live operational use.",
+  "steps": [
+    {
+      "number": "01",
+      "title": "Audit Methodology Definition",
+      "description": "Defined the underlying audit framework — including assessment categories, evidence capture, risk evaluation, prioritisation logic, and reporting structure. The focus was on creating a repeatable system capable of producing consistent, evidence-led outputs under tight delivery timelines."
+    },
+    {
+      "number": "02",
+      "title": "Product Design & Prototyping",
+      "description": "Designed and prototyped the end-to-end workflow in Figma, including structured inputs, audit scoring, evidence capture, and report generation. The interface was intentionally designed to feel guided and operational rather than overly complex or consultancy-heavy."
+    },
+    {
+      "number": "03",
+      "title": "Build & Iteration",
+      "description": "Built the platform using React, Vite, SCSS, Supabase, and AI-assisted workflows to accelerate development and iteration. The system evolved rapidly through practical testing, with several early assumptions being refined once exposed to real audit scenarios and operational use."
+    },
+    {
+      "number": "04",
+      "title": "Production Deployment",
+      "description": "Deployed the platform to a live production environment at seventy-two-audit.co.uk and integrated it directly into consulting workflows. Real-world usage exposed workflow gaps, edge cases, and opportunities for refinement that informed future iterations of the product."
+    }
+  ]
+},
+    "solution": {
+  "heading": "The Tool",
+  "body": "Seventy-Two Audit guides users through a structured, evidence-led evaluation process designed to identify operational, UX, workflow, and decision-making risks within digital products and services. Rather than relying on unstructured notes or subjective reviews, the platform uses guided prompts, categorised assessments, prioritisation logic, and structured scoring to create a more consistent and repeatable audit process.\n\nThe experience is designed to feel operational rather than bureaucratic. Auditors move through clearly defined stages covering areas such as usability friction, workflow inefficiencies, service gaps, decision risk, AI readiness, and organisational alignment. Findings are captured against evidence, prioritised by impact and confidence, and translated into structured outputs intended for both delivery teams and executive stakeholders.\n\nThe final output combines strategic observations, risk framing, prioritised recommendations, and workflow-level insight into a format designed to support faster and more informed decision-making. Unlike spreadsheets or static audit documents, the platform creates a scalable operational framework capable of evolving through repeated use and continuous refinement.\n\nThe platform was deployed live at seventy-two-audit.co.uk as both a consultancy tool and a practical demonstration of the consultancy's broader philosophy around clarity, systems thinking, and evidence-led decision support.",
+  "images": [
+    {
+      "url": "/assets/72/72-website.png",
+      "caption": "Seventy-Two Audit transforms product audits from static documents into a structured operational workflow for evidence-led decision making."
+    }
+  ]
+},
+  "outcomes": {
+  "heading": "Outputs",
+  "body": "Seventy-Two-Audit transformed the audit process from a largely manual and experience-dependent activity into a more structured operational workflow. The platform introduced greater consistency across evidence gathering, prioritisation, and reporting, while significantly reducing the time required to move from discovery to actionable insight.\n\nBeyond the tool itself, the project helped formalise a broader consulting methodology centred around clarity, systems thinking, and evidence-led decision support. It also became a practical demonstration of how AI-assisted workflows, lightweight tooling, and structured frameworks can be combined to accelerate strategic analysis without sacrificing rigour or quality.",
+  "metrics": [
+    {
+      "value": "A",
+      "label": "Structured a repeatable audit methodology for evidence-led consulting engagements."
+    },
+    {
+      "value": "B",
+      "label": "Reduced the time between discovery, analysis, and strategic reporting."
+    },
+    {
+      "value": "C",
+      "label": "From conception to deployment at seventy-two-audit.co.uk"
+    }
+  ]
+},
+"reflection": {
+  "heading": "Reflection",
+  "body": "Building a tool that you also rely on professionally creates an unusually direct feedback loop. Every weakness in the workflow becomes visible the moment it encounters a real client scenario. One of the biggest lessons from the project was recognising how different a production-ready operational tool is from a polished prototype. Many assumptions that felt reasonable in design quickly broke down once exposed to real audit complexity, edge cases, and time pressure.\n\nThe project also reinforced a broader shift in my own practice. Increasingly, the value of design lies not just in creating interfaces, but in structuring thinking, operationalising expertise, and helping organisations make better decisions more consistently. Seventy-Two Audit became less about building software for its own sake and more about encoding a strategic consulting process into a scalable operational framework."
+}
+  },
+  "gallery": [
+    {
+      "url": "/assets/72/mobile.png",
+      "caption": "seventy-two-audit.co.uk was designed to be a practical tool, not just a polished concept. The experience is intentionally operational and focused on guiding users through a structured process rather than showcasing flashy UI. It is mobile friendly."
+    },
+    {
+      "url": "/assets/72/72logomark.svg",
+      "caption": "Part of Aitken-interactive, seventy-two-audit serves as a promise to my clients: that I will deliver high-value strategic clarity within a focused seventy-two-hour engagement window. The name reflects this core operating principle, emphasising speed, focus, and actionable insight over lengthy consulting cycles or abstract discovery phases."
+    }
+  ]
+}

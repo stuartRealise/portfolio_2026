@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  position: absolute;
+  inset: -15% 0;
+  will-change: transform;
+  background-color:var(--color-charcoal);
+}
+
+.image {
+  object-fit: cover;
+  opacity: .2;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-md);
+  font-family:var(--font-body);
+}
+
+.content p{
+  padding: var(--space-md);
+  font-family:var(--font-body);
+  font-weight:900;
+  font-size:var(--text-lg);
+  color:#B8401A;
+  letter-spacing:0.08rem;;
+
+}

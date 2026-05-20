@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "efl-match-centre-digital-experience",
+    "title": "English Football League (EFL)",
+    "client": "English Football League",
+    "year": "2022-23",
+    "tags": ["Sport", "Fan Experience", "CMS", "Digital Engagement"],
+    "indexImage": "/assets/EFL/EFL_logo.svg",
+    "indexTeaser": "Delivering a full-cycle fan experience—from pre-match previews to live reporting—while providing club authors with a powerful, streamlined content management system.",
+    "featured": true
+  },
+  {
+    "slug": "visit-scotland-marketing-automation-program",
+    "title": "VisitScotland",
+    "client": "VisitScotland",
+    "year": "2021-22",
+    "tags": ["UX Strategy", "Email Marketing", "Digital Transformation", "Branding"],
+    "indexImage": "/assets/VS/logoLead.svg",
+    "indexTeaser": "Led the redesign of the Marketing Automation Programme (MAP) user experience, ensuring consistency and enhancing the visitor journey for Scotland's national tourist board.",
+    "featured": true
+  },
+  {
+    "slug": "mod-rp-recruitment-partner-portal",
+    "title": "Recruitment Partner Portal",
+    "client": "MOD — Recruitment Partner Portal",
+    "year": "2020-21",
+    "tags": ["UX Design", "Government Digital", "Portal Design", "Gamification"],
+    "indexImage": "/assets/RPP/RPP.svg",
+    "indexTeaser": "Delivering an incredibly ambitious recruitment portal over two years, designed to improve the applicant journey and business efficiency for a large government organisation.",
+    "featured": false
+  },
+  {
+    "slug": "rocktrust-youth-homelessness-support-platform",
+    "title": "Rocktrust",
+    "client": "Rocktrust",
+    "year": "2022",
+    "tags": ["Non-Profit", "Charity Digital", "UX Strategy", "Design Systems"],
+    "indexImage": "/assets/Rocktrust/WORK_Rocktrust.svg",
+    "indexTeaser": "Developing a digital platform for a charity dedicated to ending youth homelessness, focusing on supporting beneficiaries and managing complex content for growth.",
+    "featured": false
+  },
+  {
+    "slug": "great-rail-journeys-digital-vision",
+    "title": "Great Rail Journeys",
+    "client": "Great Rail Journeys",
+    "year": "2021",
+    "tags": ["UX Strategy", "Content Strategy", "Digital Vision", "Authoring Experience"],
+    "indexImage": "/assets/GRJ/WORK_GRJ.svg",
+    "indexTeaser": "Articulating a design vision for the future of GRJ, focusing on improving both the end-user experience and the content authoring process.",
+    "featured": false
+  },
+  {
+    "slug": "opus2-trial-presentations",
+    "title": "Opus2 Trial Presentations",
+    "client": "Opus2",
+    "year": "2023-2026",
+    "tags": ["Legal Technology", "UX Design", "Enterprise", "Complex Systems"],
+    "indexImage": "/assets/opus2/logo.svg",
+    "indexTeaser": "Designing the trial presentation experience for Opus2 — bringing clarity and usability to one of the most high-stakes, complexity-heavy workflows in legal practice.",
+    "featured": false
+  },
+  {
+    "slug": "service-blueprint-architect",
+    "title": "Service Blueprint Architect",
+    "client": "Self-Initiated",
+    "year": "2026",
+    "tags": ["Product Design", "Architecture", "Accessibility", "Collaboration", "Design Systems"],
+    "indexImage": "/assets/SBArchitect/WORK_SBArchitect.svg",
+    "indexTeaser": "Building a collaborative platform for service design teams with governance workflows, multi-user collaboration, and accessibility-first design.",
+    "featured": false
+  },
+  {
+    "slug": "aitken-interactive-brand-identity",
+    "title": "Aitken Interactive Brand",
+    "client": "Aitken Interactive",
+    "year": "since 2013",
+    "tags": ["Brand Strategy", "Identity Design", "Tone of Voice", "Design Systems"],
+    "indexImage": "/assets/AitkenInteractive/WORK_AI.svg",
+    "indexTeaser": "Building the Aitken Interactive brand from first principles — positioning, value proposition, visual identity, and tone of voice — into a cohesive, deployable system.",
+    "featured": false
+  },
+  {
+    "slug": "seventy-two-audit-platform",
+    "title": "Seventy-Two Audit",
+    "client": "Self-Initiated",
+    "year": "2026",
+    "tags": ["Product Design", "Self-Initiated", "UX Audit", "Design Tools"],
+    "indexImage": "/assets/72/WORK_72.svg",
+    "indexTeaser": "From idea to production: designing and building a proprietary audit tool to bring structure, consistency, and speed to digital UX and content audits.",
+    "featured": true
+  }
+]

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:case-studies": "node scripts/validate-case-studies.mjs"
   },
   "dependencies": {
     "next": "16.2.5",

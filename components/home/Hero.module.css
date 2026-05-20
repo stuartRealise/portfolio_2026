@@ -1,0 +1,151 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Mobile: navbar is position:fixed, height is deterministic at 72px
+   (padding: 1rem × 2 = 32px + logo height: 40px). margin-top pushes the
+   section to start at the navbar bottom. Two min-height declarations: vh is
+   the universal fallback; dvh (iOS 15.4+) accounts for the dynamic viewport
+   as the URL bar appears/disappears. No CSS variable in calc() — avoids the
+   failure mode where an unresolved var() silently invalidates the property
+   and the browser falls back to the base 640px, collapsing the centering. */
+@media (max-width: 899px) {
+  .hero {
+    height: auto;
+    margin-top: 72px;
+    min-height: calc(100vh - 72px);
+    min-height: calc(100dvh - 72px);
+  }
+
+  .content {
+    padding: 0 var(--space-sm);
+  }
+
+  .heading {
+    font-size: clamp(2.25rem, 8vw, 3rem);
+    margin-bottom: var(--space-sm);
+  }
+
+  .subline {
+    font-size: var(--text-base);
+    margin-bottom: var(--space-md);
+  }
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+}
+
+.bgImage {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(28, 30, 26, 0.5) 0%,
+    rgba(28, 30, 26, 0.3) 60%,
+    rgba(28, 30, 26, 0.7) 100%
+  );
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 var(--space-md);
+  max-width: 980px;
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  font-weight:900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(236, 233, 227, 0.75);
+  margin-bottom: var(--space-sm);
+}
+
+.heading {
+  font-family: var(--font-display);
+  /* font-size: var(--text-hero); */
+  font-size: 7rem;
+  font-weight: 400;
+  color: var(--color-white);
+  line-height: 1.08;
+  margin-bottom: var(--space-md);
+  max-width: 18ch;
+}
+
+.subline {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--color-parchment);
+  opacity: 0.82;
+  max-width: 55ch;
+  line-height: 1.65;
+  margin-bottom: var(--space-lg);
+}
+
+.cta {
+  display: inline-block;
+  background: var(--color-brand-primary);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight:600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 1.1rem 2.75rem;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cta:hover {
+  background: #9e3616;
+}
+
+/* ——— Scroll indicator ——— */
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chevron {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-right: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.55);
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes bounce {
+    0%, 100% { transform: rotate(45deg) translateY(0); }
+    50%       { transform: rotate(45deg) translateY(6px); }
+  }
+
+  .chevron {
+    animation: bounce 1.8s ease infinite;
+  }
+}

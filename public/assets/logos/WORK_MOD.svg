@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A2A1A;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2A4A2A;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <text x="800" y="400" font-family="Georgia, serif" font-size="72" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold" opacity="0.9">Recruitment Partner Portal</text>
+  <text x="800" y="490" font-family="Georgia, serif" font-size="36" fill="#B0C8B0" text-anchor="middle" dominant-baseline="middle">Ministry of Defence</text>
+  <text x="800" y="570" font-family="Georgia, serif" font-size="22" fill="#708870" text-anchor="middle" dominant-baseline="middle">[ Placeholder — replace with project imagery ]</text>
+</svg>
