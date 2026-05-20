@@ -122,7 +122,7 @@
 
 .serviceCards {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: var(--space-sm);
   align-items: stretch;
 }
@@ -144,8 +144,12 @@
   cursor: pointer;
   text-align: left;
   transition: border-color 0.2s ease;
-  flex: 1;
+  flex: 1 1 calc(50% - var(--space-sm) / 2);
   min-width: 0;
+}
+
+.serviceCard:last-child {
+  flex: 1 1 100%;
 }
 
 .serviceCard:hover,
